@@ -20,4 +20,3 @@ library_name = "Central Library"
 library = Library.objects.get(name=library_name)
 librarian = Librarian.objects.get(library=library)
 print(f"Librarian for {library.name}:", librarian.name)
-
